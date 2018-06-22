@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lyft</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link rel="stylesheet" href="../css/signup.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col s4 back-arrow">
+                <i class="material-icons">keyboard_backspace</i>
+            </div>
+            <div class="col s12">
+                <div class="row">
+                    <h3 class="col s12">Sign up</h3>
+                    <h6 class="col s12">¡Join now for free ride credit!</h6>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="row">
+                <div class="input-field col l4 m4 s4">
+                    <select>
+                        <option value="" disabled selected>Country</option>
+                        <option value="México" data-icon="../assets/image/mexico.png">México</option>
+                        <option value="Colombia" data-icon="../assets/image/colombia.png">Colombia</option>
+                        <option value="Brazil" data-icon="../assets/image/brazil.png">Brazil</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col s8">
+                <input id="phone-number" type="text">
+                <label for="phone">Phone Number
+                </label>
+            </div>
+        </div>
+        <div class="row">
+            <p class="col s12 verify-text">We'll send a text to verify your phone</p>
+        </div>
+        <div class="row">
+            <a id="next-button" class="col s12 waves-effect waves-light btn disabled">NEXT</a>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script src="../js/signup.js"></script>
+</body>
+
+</html>
