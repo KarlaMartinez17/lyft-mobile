@@ -36,3 +36,9 @@ $(document).ready(function () {
     }
 });
 
+
+    $( "#next-button" ).click(function() {
+        swal("Thanks for sign up!", "Your your access code is: LAB-000", "success");;
+      });
+
+     
